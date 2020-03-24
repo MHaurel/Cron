@@ -19,13 +19,13 @@ def news():
     day_date = date.today().strftime("%d/%m/%Y")
     print(full_date)
 
-    # Création du fichier s'il n'existe pas
+    # Creating File if not exists
     if not os.path.exists(FILE_PATH):
         try:
             f = open(FILE_PATH, "w+")
         except FileNotFoundError:
             print("File/Directory does not exists !!")
-            sys.exit()  # Arrêt du programme
+            sys.exit()  # Stop the program
 
     data[day_date] = {}
 
@@ -45,7 +45,7 @@ def news():
         titles.append(article["title"])
         urls.append(article["url"])
 
-    # Building the dictionary in terms of news information
+    # Building the (nested) dictionary in terms of news information
     for i in range(len(titles)):
         new = {"id": i + 1, "title": titles[i], "url": urls[i]}
         data[day_date][("id" + str(i + 1))] = new
