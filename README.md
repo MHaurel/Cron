@@ -8,3 +8,11 @@ The Cron I post here is originally designed to get the most viewed french scient
 ## API Key
 
 You can get your API key from this link : http://newsapi.org
+
+## Libraries
+
+You will need these libraries :
+    requests
+    datetime
+    newsapi
+    schedule
