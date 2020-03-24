@@ -11,8 +11,4 @@ You can get your API key from this link : http://newsapi.org
 
 ## Libraries
 
-You will need these libraries :
-    requests
-    datetime
-    newsapi
-    schedule
+You will need these libraries : requests, datetime, newsapi, schedule
