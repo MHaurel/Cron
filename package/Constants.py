@@ -1,2 +1,3 @@
-API_KEY = "0adb9fca5a94496cafed4d3d242364c0"
-FILE_PATH = "C:/Users/Admin/Documents/IT/Development/Python/Projets/Cron/python/package/data/data.txt"
+API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  # Your own API key there
+
+FILE_PATH = "C:\"  # Put the path you want here
